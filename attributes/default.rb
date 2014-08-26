@@ -97,6 +97,7 @@ default.elasticsearch[:skip_start] = false
 # === PORT
 #
 default.elasticsearch[:http][:port] = 9200
+default.elasticsearch[:network][:publish_host] = "_ec2:publicIp_"
 
 # === CUSTOM CONFIGURATION
 #
